@@ -57,8 +57,8 @@
 				var $item = item.eq(i);
 				var $block = $item.find('.carouselItemInner');
 				
-        //thanks @chrisgannon!        
-        TweenMax.set($item, {rotationY:rY * i, z:radius, transformOrigin:"50% 50% " + -radius + "px"});
+				//thanks @chrisgannon!
+				TweenMax.set($item, {rotationY:rY * i, z:radius, transformOrigin:"50% 50% " + -radius + "px"});
 				
 				animateIn( $item, $block )						
 			}
