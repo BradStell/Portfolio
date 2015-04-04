@@ -1,7 +1,12 @@
+<!-- Dynamically add itemContainer templates for each item in items 
+    (currently an array, working on adding database functionality -->
+
 <template name="paneContainer">
     <div id="contentContainer" class="trans3d">
         <section id="carouselContainer" class="trans3d">
-            {{> itemContainer}}
+            {{#each items}}
+                {{> itemContainer}}
+            {{/each}}
         </section>
     </div>
 </template>
