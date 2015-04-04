@@ -1,9 +1,9 @@
 Template.paneContainer.helpers({
-    /*
+
     items: function() {
         return Items.find();
     }
-    */
+    /*
     items: [
         {
             id: 'item1',
@@ -50,4 +50,5 @@ Template.paneContainer.helpers({
             value: 11
         }
     ]
+*/
 });

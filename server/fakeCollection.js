@@ -1,6 +1,6 @@
 if (Items.find().count() === 0) {
     Items.insert({
-       id: 'item1',
+        id: 'item1',
         value: 1
     });
 
